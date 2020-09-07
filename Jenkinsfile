@@ -20,7 +20,7 @@ pipeline {
 		    }
 	    }		
     } post {
-		always{
+		always {
 			echo 'Im awesome. I run always'
 		}
 		sucess {
@@ -30,5 +30,4 @@ pipeline {
 			echo 'I run when yo fail'
 		}
 	}
-}
 }
